@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AllSafe</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="topnav-right"><a href="#login">LogIn</a></li>
+                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftside-col">
+                        <h1 class="large">Crazy Radness</h1>
+                        <h1 class="large">For Whitehats</h1>
+                    </div>
+                    <form>
+                        <div class="leftside-col">
+                            <h2>User Name</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="Username">
+                            <h2>Password</h2>
+                            <input class="inputbox" name="password" type="text" placeholder="password">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="rightside-col">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VxRX2u0Bk2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hearder>
+            <h2 class="section-2-header">The Standards of Awesomemess</h2>
+        </hearder>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <div class="icon">
+                            <img src="download2.jpg">
+                        </div>
+                        <label>Chat With Me</label>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+                    <div class="col-4">
+                     <div class="box" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <div class="icon">
+                            <img src="download2.jpg">
+                        </div>
+                        <label>Learn To Secure</label>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                     <div class="box" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <div class="icon">
+                            <img src="download2.jpg">
+                        </div>
+                        <label>Build An Empire</label>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learnmore">Learn More</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-7">
+                    <article data-aos="zoom-in-left" data-aos-duration="2000"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></article>
+                </div>
+                <div class="col-5">
+                    <div class="image" data-aos="zoom-in-right" data-aos-duration="2000">
+                       
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+        <script>
+            function dropdownMenu()
+            {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav")
+                    {
+                        x.className += " responsive";
+                    }
+                else
+                {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+    <script>
+        AOS.init();
+      </script>
+</html>

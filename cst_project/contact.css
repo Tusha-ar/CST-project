@@ -1,0 +1,43 @@
+body, html{ 
+	  height:100%;
+	  margin:0;
+	  font-size:16px;
+	  font-family:"Lato", sans-serif;
+	  font-weight:400;
+	  line-height:1.8em;
+	  color:#666;
+      background-image: url(88.jpg);
+
+}
+h1{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    text-align: center;
+    margin-top: 50px;
+}
+div{
+    padding-left: 43%;
+}
+h3{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 7%;
+}
+.1{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: -30px;
+    color: darkgrey;
+}
+.1 li:hover{
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+img:hover{
+    border-radius: 20px;
+    transition: 1s;
+	transform: scale(1.25);
+}
